@@ -1,0 +1,118 @@
+body {font-family: 'Raleway', sans-serif;
+		font-size: 1rem;
+		text-align: center;}
+
+h1, h2, h3, h4 {font-family: 'Rye', cursive;}
+
+hr{width: 40%;
+	border: 1px solid #343a40;}
+
+h3{text-align: left;
+	margin-bottom: 30px;}
+
+
+/*section*/
+.colored{background-color: #343a40;
+		color: white;}
+
+.white{background-color: white;
+		color: #343a40;}
+
+
+#title {background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		padding-bottom:200px;}
+
+@media (max-width: 1024px)  {
+		#title { 
+			background-image: url(../images/turma-small.jpg);
+			background-attachment: scroll;
+			background-size: 100% 100%;}
+		}
+@media (min-width: 1025px) {
+    #title {
+	    background-image: url(../images/turma.jpg);
+   }
+}
+
+
+
+/*navbar*/
+.navbar {padding-top: 1rem;}
+
+.nav-item {padding: 0 1rem;
+		   font-weight: bold;}
+
+
+/*social*/
+#btn {outline: none;
+	  border-style: none;
+	  border-radius: 50%;}
+
+.social {padding:40px 0 0;
+		margin: 0;}
+
+
+/*titulo e subtitulo*/
+.titulo {font-size: 5rem;
+		line-height: 1.5;}
+
+.fundotitulo {margin:190px auto 0;
+				padding:0;
+				line-height: 3;
+				width: 60%;}
+
+.fundosubtitulo {width: 25%;
+				font-size: 5rem;
+				font-weight: 500;
+				margin: 0 auto;}
+
+.subtitulo {text-align: center;}
+
+
+/*horarios*/
+#horario {margin-top: 60px;
+			margin-bottom: 50px;
+			font-size: 1.5rem;}
+
+.horafunc{margin: 20px 0 20px;}
+
+
+
+/*work*/
+#work {padding: 3%;}
+
+.work-img {width: 40%;
+			border-radius: 100%;
+			margin: 10px;}
+
+.nomes{margin: 0 auto 55px;}
+
+.carousel-indicators{margin: 0;}
+
+/*localizacao*/
+.localtitulo{text-align: center;
+			margin-top: 80px;}
+
+.localimg {width: 80%;
+			margin: 50px 0 0 120px;
+			border-radius: 30%;}
+
+.localp {font-size: 1.5rem;
+		font-weight: 600;
+		margin: 180px 100px 50px;}
+
+.localp2{ font-size: 1rem;
+		font-weight: 600;
+		width: 40%;
+		margin: 0 auto;}
+
+
+/*footer*/
+#footer {margin-top: 100px;
+		padding-bottom: 10px; }
+
+.footer1 {margin: auto;
+			padding-top: 20px;}
